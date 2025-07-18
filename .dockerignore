@@ -1,0 +1,20 @@
+# Ignore Python cache & venv
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Ignore git & IDE config
+.git/
+.gitignore
+*.swp
+*.sublime*
+
+# Ignore datasets, logs
+data/
+logs/
+*.log
+
+# Ignore local dev files
+.env
+.DS_Store
